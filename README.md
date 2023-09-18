@@ -1,2 +1,3 @@
 # CloudPerformanceTuning
-In this project I'll be making an E-Commerce front end & then deploying it on the cloud and thereby making it more scalable reliable with the cloud computing services
+In this project I'll be making an E-Commerce Wesbite Called-SkyStore & then deploying it on the cloud via microsft azure 
+In the process I will be Actively Monitoring the Website & Making it more & more performance tuned over the cloud by applying various performance tuning techniques .
