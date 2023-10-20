@@ -81,10 +81,15 @@
     <p>Get E-mail for updates about our latest shop & <span>special offers</span> </p>
   </div>
   <div class="form">
-    <input type="text" placeholder="Your E-mail address">
-    <button class="normal"  button type="button" class="submit" onclick="window.location.href='Contact.html';">Sign Up</button>
+    <form action="submit.php" method="POST">
+    <input type="email" name ="email" placeholder="Enter Your E-mail address" required>
+    <input type ="submit" value="submit">
+    </form>
   </div>
-</section>
+</section><form action="submit.php" method="POST">
+    <input type="email" name ="email" placeholder="Enter Your E-mail address" required>
+    <input type ="submit" value="submit">
+    </form>
 <footer class="section-p1"> 
 <div class="col">
   <img class="logo"src="Images/logo4.png">
