@@ -1,4 +1,5 @@
-  body {
+  <style>
+body {
   background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -6,7 +7,6 @@
   font-family: "Open Sans", sans-serif;
   color: #333333;
 }
-
 .box-form {
   margin: 0 auto;
   width: 80%;
@@ -138,7 +138,6 @@ label::before {
   left: -30px;
   transition: all 0.2s linear;
 }
-
 label:hover::before {
   font-family: FontAwesome;
   content: ' \f00c';
@@ -146,11 +145,9 @@ label:hover::before {
   cursor: pointer;
   background: #70F570;
 }
-
 label:hover::before .text-checkbox {
   background: #70F570;
 }
-
 label span.text-checkbox {
   display: inline-block;
   height: auto;
@@ -158,7 +155,6 @@ label span.text-checkbox {
   cursor: pointer;
   transition: all 0.2s linear;
 }
-
 label input[type="checkbox"] {
   display: none;
 }  
